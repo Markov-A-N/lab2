@@ -20,3 +20,5 @@ ob1 < ob2 ? NO
 ob1 > ob2 ? YES
 ob1 <= ob2 ? NO
 ob1 >= ob2 ? YES
+ob3:
+4.50 4.50
