@@ -23,6 +23,8 @@ public:
 	friend double rounding(double num);
 };
 
-//Budget operator"" _budget(const double op1, const double op2);
+Budget operator"" _Budget(long double);
+
+
 
 #endif //BUDGET_CLASS_H

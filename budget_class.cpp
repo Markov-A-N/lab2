@@ -131,6 +131,13 @@ bool Budget::operator>=(Budget const &op2) const
 	}
 }
 
+Budget operator"" _Budget(long double op)
+{
+	Budget temp{(double) op, (double) op};
+
+	return temp;
+}
+
 std::ostream &operator<<(std::ostream &out, Budget const &ob)
 {
 	out.precision(2);

@@ -50,6 +50,9 @@ int main(int argc, char *argv[])
 	if (ob1 >= ob2)	std::cout << "YES\n";
 	else std::cout << "NO\n";
 
+	Budget ob3 = 4.5_Budget;
+	std::cout << ob3;
+	
 	UNUSED(argc);
 	UNUSED(argv);
 
