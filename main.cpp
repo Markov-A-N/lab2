@@ -51,8 +51,8 @@ int main(int argc, char *argv[])
 	else std::cout << "NO\n";
 
 	Budget ob3 = 4.5_Budget;
-	std::cout << ob3;
-	
+	std::cout << "ob3:\n" << ob3;
+
 	UNUSED(argc);
 	UNUSED(argv);
 
